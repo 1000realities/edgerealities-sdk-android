@@ -30,7 +30,7 @@ For more videos please visit the [1000 realities youtube channel](https://www.yo
    - Connection settings.
 3. Select "Scan QR code", and point the device to the configuration QR code show on the home page of the Edge Realities admin panel (in your web browser).
 4. The application should show a blue popup “Configuration complete” once it was successfully configured for usage with Edge Realities.
-5. Click the “Play” icon in the bottom right corner to connect to the Edge Realities server intsance.
+5. Click the “Play” icon in the bottom right corner (or double swipe backwards on some smartglass models) to connect/disconnect to the Edge Realities server intsance.
 6. The red cross icon in the top left corner should now change to a yellow excalmation mark, indicating that the connection has been succesfully established.
 
 ### 3. Initialize and build an environment map
