@@ -17,8 +17,31 @@ For more videos please visit the [1000 realities youtube channel](https://www.yo
 
 ## Using the example app
 ### 1. Start the Edge Realities server instance
+1. In your web browser, navigate to the Edge Realities server instance URL provided along with your license.
+2. Log to the admin panel website with the credentials provided along with your license.
+3. You should be redirected to the home page of the Edge Realities' platform admin panel. (Image here).
+4. On the home page, start the 6DoF tracking server module by pressing the "Restart CloudSLAM" button.
+5. After a short while the "CloudSLAM status" panel will change to green and the value will be "Running". 
+
 ### 2. Connect the client app
+1. Run the example app on your device. If the application is ran for the first time it is important that you **accept all permission requests**.
+2. Click the cog icon in the top right corner (or double swipe forward on some smartglass models). You should see a popup menu with two options:
+   - Scan QR code
+   - Connection settings.
+3. Select "Scan QR code", and point the device to the configuration QR code show on the home page of the Edge Realities admin panel (in your web browser).
+4. The application should show a blue popup “Configuration complete” once it was successfully configured for usage with Edge Realities.
+5. Click the “Play” icon in the bottom right corner to connect to the Edge Realities server intsance.
+6. The red cross icon in the top left corner should now change to a yellow excalmation mark, indicating that the connection has been succesfully established.
+
 ### 3. Initialize and build an environment map
+1. Once connected, the "video" section (or "Map" section) of the Edge Realities administration panel should show a live preview from the camera on the device.
+2. In not environment data is present, Red lines will be displayed over the preview indicating that the system is trying to initialize environment tracking. (Image here)
+3. To initialize the environment data, move your device around the environment while looking at the video preview. Try to avoid rapid movement, and make sure that the device is changing it's position (i.e. not just rotating).
+4. After few seconds the yellow exclamation mark icon in the client app should change to a green tick mark, indicating that  the envionrment data has been initialized tracking is in progress. On the video preview you will see that the red lines have been replaced by green dots. (Image here)
+5. Note: The initialization process can take anywhere from a few seconds to 15 minutes (depending on the environment, more clutter = faster initialization), so please be patient.
+6. Move your device around the environment to map it. Try to capture different viewing angles to obtain well defined environment data. You can see the data being built up live in the "Map" section.
+7. Once happy with the results, use the "Restart CloudSLAM" button on the home page to save your environment.
+8. In case you don't want to map the environment further and wish to focus only on tracking your device, building the environment map can be disabled in the "Map" section.
 
 
 ## SDK Documentation
