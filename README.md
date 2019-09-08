@@ -46,7 +46,7 @@ For more videos please visit the [1000 realities youtube channel](https://www.yo
 7. Once happy with the results, use the "Restart CloudSLAM" button on the home page to save your environment.
 8. In case you don't want to map the environment further and wish to focus only on tracking your device, building the environment map can be disabled in the "Map" section.
 
-## SDK core concepts / TLDR
+## SDK core concepts / TL;DR
 1. The CloudSLAM class represents the core of the SDK. Creating an object of this class should be your starting point.
 2. The CloudSLAM.start(...) method is used to connect the the EdgeRealities server instance and commence environment tracking/mapping.
 3. The CSConfig object required by the start method may be filled in manually, however the example app provides a means of automatic configuration through scanning a QR code.
