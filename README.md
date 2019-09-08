@@ -19,7 +19,8 @@ For more videos please visit the [1000 realities youtube channel](https://www.yo
 ### 1. Start the Edge Realities server instance
 1. In your web browser, navigate to the Edge Realities server instance URL provided along with your license.
 2. Log to the admin panel website with the credentials provided along with your license.
-3. You should be redirected to the home page of the Edge Realities' platform admin panel. (Image here).
+3. You should be redirected to the home page of the Edge Realities' platform admin panel.
+![home page](https://raw.githubusercontent.com/1000realities/edgerealities-sdk-android/master/doc/images/admin-panel-home.png)
 4. On the home page, start the 6DoF tracking server module by pressing the "Restart CloudSLAM" button.
 5. After a short while the "CloudSLAM status" panel will change to green and the value will be "Running". 
 
@@ -35,9 +36,11 @@ For more videos please visit the [1000 realities youtube channel](https://www.yo
 
 ### 3. Initialize and build an environment map
 1. Once connected, the "video" section (or "Map" section) of the Edge Realities administration panel should show a live preview from the camera on the device.
-2. In not environment data is present, Red lines will be displayed over the preview indicating that the system is trying to initialize environment tracking. (Image here)
+2. In not environment data is present, Red lines will be displayed over the preview indicating that the system is trying to initialize environment tracking.
+![env init](https://raw.githubusercontent.com/1000realities/edgerealities-sdk-android/master/doc/images/env-initialize.png)
 3. To initialize the environment data, move your device around the environment while looking at the video preview. Try to avoid rapid movement, and make sure that the device is changing it's position (i.e. not just rotating).
-4. After few seconds the yellow exclamation mark icon in the client app should change to a green tick mark, indicating that  the envionrment data has been initialized tracking is in progress. On the video preview you will see that the red lines have been replaced by green dots. (Image here)
+4. After few seconds the yellow exclamation mark icon in the client app should change to a green tick mark, indicating that  the envionrment data has been initialized tracking is in progress. On the video preview you will see that the red lines have been replaced by green dots.
+![env tracking](https://raw.githubusercontent.com/1000realities/edgerealities-sdk-android/master/doc/images/env-tracking.png)
 5. Note: The initialization process can take anywhere from a few seconds to 15 minutes (depending on the environment, more clutter = faster initialization), so please be patient.
 6. Move your device around the environment to map it. Try to capture different viewing angles to obtain well defined environment data. You can see the data being built up live in the "Map" section.
 7. Once happy with the results, use the "Restart CloudSLAM" button on the home page to save your environment.
