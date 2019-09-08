@@ -54,6 +54,7 @@ For more videos please visit the [1000 realities youtube channel](https://www.yo
 5. If you want the video stream to be previewed on your device, provide a Serface to the CloudSLAM.start(...) method.
 6. Use CloudSLAM.stop() to disconnect from the Edge Realities server instance.
 7. The CloudSLAM class will create and start it's own background thread to manage all communication with the server instance. However you can force it to run on your thread of choice by providing a Looper object to the CloudSLAM.start(...) method.
+8. The Edge Realities android SDK requires the Java-Websocket library (org.java-websocket) v 1.3.8 or newer.
 
 ## SDK Documentation
 
