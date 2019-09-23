@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:contentDescription="hf_no_number">
+    <item
+        android:id="@+id/qr_config"
+        android:title="Scan QR code"
+        android:contentDescription="hf_use_description|Scan QR code"/>
+    <item
+        android:id="@+id/connection_settings"
+        android:title="Connection settings"
+        android:contentDescription="hf_use_description|Connection settings"/>
+</menu>

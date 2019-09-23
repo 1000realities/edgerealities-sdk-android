@@ -1,0 +1,2 @@
+include ':exampleapp', ':shapes', ':cloudslam'
+rootProject.name='Edge Realities SDK example'

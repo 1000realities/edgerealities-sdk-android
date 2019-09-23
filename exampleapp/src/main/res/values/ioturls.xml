@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CoffeePollValue" translatable="false">coffee-maker</string>
+    <string name="DishwasherPollValue" translatable="false">dishwasher</string>
+    <string name="FridgePollValue" translatable="false">fridge</string>
+    <string name="FridgeAlarmPollValue" translatable="false">fridge_alarm</string>
+    <string name="OvenPollValue" translatable="false">oven</string>
+    <string name="ValvePollValve" translatable="false">valve?idx=</string>
+</resources>

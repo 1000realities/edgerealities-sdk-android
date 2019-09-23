@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrackingExample</string>
+    <string name="lang">LANG</string>
+    <string name="BladeConnectMessage" translatable="false">Swipe backwards with two fingers to connect.</string>
+    <string name="M300ConnectMessage" translatable="false">Press the forward button to connect.</string>
+    <string name="HMT1ConnectMessage" translatable="false">Say \"SLAM run\" to connect.</string>
+</resources>
